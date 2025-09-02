@@ -21,7 +21,7 @@ VisionAI is a computer vision-based software application designed to assist visu
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/vision-ai.git
+   git clone https://github.com/likhith-b-a/vision-ai.git
    cd vision-ai
    ```
 

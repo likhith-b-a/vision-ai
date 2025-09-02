@@ -42,7 +42,7 @@ def make_announcement(text):
 
 # --- System Initialization ---
 model = YOLO('yolov8n.pt')
-video_path = r"D:\DOWN LOADS\Smart_Glasses_For_Blind_People-main\Gemini\Bangalore city walk HMT main road - Citywalker (360p, h264).mp4"
+video_path = r"./sample_video.mp4"
 cap = cv2.VideoCapture(video_path)
 
 # --- Tracking & Logic Variables ---
@@ -437,4 +437,5 @@ finally:
 
 # # Convert the final text to speech
 # engine.say(final_output)
+
 # engine.runAndWait()
